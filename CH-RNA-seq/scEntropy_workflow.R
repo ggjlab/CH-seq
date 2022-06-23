@@ -6,7 +6,8 @@ library(ggplot2)
 library(ggsignif)
 library(RColorBrewer)
 
-## load the kappa similarity matrix of human genes
+## load the kappa similarity matrix of human genes, hs_km.Rda is avaliable at ##https://figshare.com/articles/dataset/Construction_of_the_axolotl_cell_landscape_using_combinatorial_hybridization_sequencing_at_single_cell_resolution_SLICE_related_Rdata_in_Fig_S1g_/20128481 
+
 load("./hs_km.Rda")
 
 ## Data prepraration
